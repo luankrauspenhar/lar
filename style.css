@@ -76,7 +76,7 @@ footer {
     top: 1050px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .cards {
         display: flex;
         flex-direction: column;
