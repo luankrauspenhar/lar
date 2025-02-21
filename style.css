@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 130vh;
+    width: 100vw;
+}
+
+header {
+    height: 100px;
+    background-color: #ff00ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-family: 'Sigmar', sans-serif;
+        font-weight: 300;
+    }
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    height: 80px;
+}
+
+.card-1 {
+    height: 150px;
+    width: 150px;
+}
+
+.card-2 {
+    height: 150px;
+    width: 150px;
+}
+
+.card-3 {
+    height: 150px;
+    width: 150px;
+}
+
+button {
+    width: 100%;
+    height: 20px;
+    cursor: pointer;
+    background-color: #00ff00;
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sigmar', sans-serif;
+    background-color: #ff00ff;
+    position: absolute;
+    top: 1050px;
+}
+
+@media (max-width: 400px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: space-around;
+        gap: 30px;
+    }
+
+    img {
+        height: 150px;
+    }
+
+    .card-1 {
+        width: 100%;
+        text-align: center;
+        p {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            height: 35px;
+            font-size: 20px;
+        }
+    }
+
+    .card-2 {
+        width: 100%;
+        text-align: center;
+        p {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            height: 35px;
+            font-size: 20px;
+        }
+    }
+
+    .card-3 {
+        width: 100%;
+        text-align: center;
+        p {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            height: 35px;
+            font-size: 20px;
+        }
+    }
+}
